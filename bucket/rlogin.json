@@ -1,25 +1,26 @@
 {
-    "version": "2.30.8",
+    "version": "2.30.9",
     "description": "RLogin",
     "homepage": "https://kmiya-culti.github.io/RLogin/",
     "license": "MIT License",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kmiya-culti/RLogin/releases/download/2.30.8/rlogin_x64.zip",
-            "hash": "sha256:3f033034476abf6ccdafd9972c3052a61444e139de42bf1cd0ec54a18d0301e0"
+            "url": "https://github.com/kmiya-culti/RLogin/releases/download/2.30.9/rlogin_x64.zip",
+            "hash": "d989d12d7995ecf88f02d1bb994188ce175924b54fd3ba6b7de614f828f8098e"
         },
         "32bit": {
-            "url": "https://github.com/kmiya-culti/RLogin/releases/download/2.30.8/rlogin_x32.zip",
-            "hash": "sha256:4a370f908e446952968e88f5122770be9eb96987f5fcafeeda6be37eb905be5c"
+            "url": "https://github.com/kmiya-culti/RLogin/releases/download/2.30.9/rlogin_x32.zip",
+            "hash": "411b31fec0843b4cff6ee6ffe4519298c6e402f3997ac9492e45235a360dffbb"
         }
     },
     "bin": "RLogin.exe",
     "shortcuts": [
-        ["RLogin.exe", "RLogin"]
+        [
+            "RLogin.exe",
+            "RLogin"
+        ]
     ],
-    "persist": [
-        "RLogin.ini"
-    ],
+    "persist": "RLogin.ini",
     "checkver": {
         "github": "https://github.com/kmiya-culti/RLogin/"
     },
