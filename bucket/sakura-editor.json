@@ -3,12 +3,8 @@
     "description": "sakura-editor",
     "homepage": "https://sakura-editor.github.io/",
     "license": "Zlib",
-    "architecture": {
-        "32bit": {
-            "url": "https://github.com/sakura-editor/sakura/releases/download/v2.4.3/sakura-tag-v2.4.3-build2916-fe1a4a281-Win32-Release-Exe.zip",
-            "hash": "9973140125159c1615cb1841af2ecf700a87aa3f45c3414b87a0e8c6c864700c"
-        }
-    },
+    "url": "https://github.com/sakura-editor/sakura/releases/download/v2.4.3/sakura-tag-v2.4.3-build2916-fe1a4a281-Win32-Release-Exe.zip",
+    "hash": "9973140125159c1615cb1841af2ecf700a87aa3f45c3414b87a0e8c6c864700c",
     "bin": "sakura.exe",
     "shortcuts": [
         [
@@ -25,10 +21,6 @@
         "regex": "sakura-tag-v(?<version>[\\d.]+)-build(?<build>[\\d]+)-(?<commit>[a-zA-F0-9]+)-Win32-Release-Exe.zip"
     },
     "autoupdate": {
-        "architecture": {
-            "32bit": {
-                "url": "https://github.com/sakura-editor/sakura/releases/download/v$version/sakura-tag-v$version-build$matchBuild-$matchCommit-Win32-Release-Exe.zip"
-            }
-        }
+        "url": "https://github.com/sakura-editor/sakura/releases/download/v$version/sakura-tag-v$version-build$matchBuild-$matchCommit-Win32-Release-Exe.zip"
     }
 }
